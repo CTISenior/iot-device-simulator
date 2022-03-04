@@ -1,0 +1,55 @@
+{
+    "gateway": {
+        "name": "Test Broker",
+        "client_id" : "IoTwin_TB-Gateway",
+        "host": "192.168.1.140",
+        "default_keys": ["temp", "hum", "custom"],
+        "security": {
+            "isSecure": true,
+            "username": "iotwin",
+            "password": "iot_twin.9097"
+        },
+        "ssl": {
+            "certificates": false,
+            "caCert": "certificates/ca.pem",
+            "cert": "certificates/certificate.pem"
+        },
+        "protocols": {
+            "mqtt": {
+                "name": "mqtt",
+                "port": 11883,
+                "topic_name": "/sensor/data",
+                "method": null,
+                "security": {
+                    "isSecure": true,
+                    "username": "iotwin",
+                    "password": "iot_twin.9097"
+                },
+                "ssl": {
+                    "certificates": false,
+                    "caCert": "certificates/ca.pem",
+                    "cert": "certificates/certificate.pem"
+                }
+            },
+            "http": {
+                "name": "http",
+                "port": 5000,
+                "topic_name": "/device1",
+                "method": "post",
+                "security": {
+                    "isSecure": true,
+                    "username": "iotwin",
+                    "password": "iot_twin.9097"
+                },
+                "ssl": {
+                    "certificates": false,
+                    "caCert": "certificates/ca.pem",
+                    "cert": "certificates/certificate.pem"
+                }
+            },
+            "": {
+
+            }
+        }
+    }
+}

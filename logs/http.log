@@ -1,0 +1,680 @@
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:New device instance created -192.168.1.140:11883- | client_dsada 
+DEBUG:root:Connected to MQTT Broker (192.168.1.140):11883 | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Send {"serialNumber": "dsada", "sensorType": "dasasd", "sensorModel": "asdas", "accessToken": "", "protocol": "mqtt", "interval": 1} to topic /sensor/data | client_dsada 
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:11883 client_czxczx
+DEBUG:root:Connected to MQTT Broker 192.168.1.140:11883 client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_czxczx
+DEBUG:root:Send {'serialNumber': 'czxczx', 'sensorType': 'xzczx', 'sensorModel': 'qwe', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_czxczx
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:11883 client_1312
+DEBUG:root:Connected to MQTT Broker 192.168.1.140:11883 client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Send {'serialNumber': '1312', 'sensorType': 'dasd', 'sensorModel': 'czxczx', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_1312
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:11883 client_casca
+DEBUG:root:Connected to MQTT Broker 192.168.1.140:11883 client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:New device instance created: 192.168.1.140:11883 client_dsada
+DEBUG:root:Connected to MQTT Broker 192.168.1.140:11883 client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_dsada
+DEBUG:root:New device instance created: 192.168.1.140:11883 client_casca
+DEBUG:root:Connected to MQTT Broker 192.168.1.140:11883 client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 10} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -4} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -4} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -4} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -4} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 9} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -4} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -4} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 8} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 7} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 6} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 5} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -3} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 2} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 4} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 1} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'casca', 'sensorType': 'casc', 'sensorModel': 'acsaca', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_casca
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Send {'serialNumber': 'dsada', 'sensorType': 'dasasd', 'sensorModel': 'asdas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 3} to topic /sensor/data | client_dsada
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:11883 client_fsafsaf
+DEBUG:root:Connected to MQTT Broker 192.168.1.140:11883 client_fsafsaf
+DEBUG:root:Send {'serialNumber': 'fsafsaf', 'sensorType': 'safsa', 'sensorModel': 'fasfsafas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_fsafsaf
+DEBUG:root:Send {'serialNumber': 'fsafsaf', 'sensorType': 'safsa', 'sensorModel': 'fasfsafas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_fsafsaf
+DEBUG:root:Send {'serialNumber': 'fsafsaf', 'sensorType': 'safsa', 'sensorModel': 'fasfsafas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_fsafsaf
+DEBUG:root:Send {'serialNumber': 'fsafsaf', 'sensorType': 'safsa', 'sensorModel': 'fasfsafas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_fsafsaf
+DEBUG:root:Send {'serialNumber': 'fsafsaf', 'sensorType': 'safsa', 'sensorModel': 'fasfsafas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_fsafsaf
+DEBUG:root:Send {'serialNumber': 'fsafsaf', 'sensorType': 'safsa', 'sensorModel': 'fasfsafas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_fsafsaf
+DEBUG:root:Send {'serialNumber': 'fsafsaf', 'sensorType': 'safsa', 'sensorModel': 'fasfsafas', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': 0} to topic /sensor/data | client_fsafsaf
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:xyz client_agsag
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_savasv
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_vxzvzx
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_bxcb
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_casczx
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_asvas
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_vsav
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_vzxvxz
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_vxzvzvx
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:11883 | mqtt | client_cascacas
+DEBUG:root:Connected to MQTT Broker 192.168.1.140:11883 client_cascacas
+DEBUG:root:Send {'serialNumber': 'cascacas', 'sensorType': 'asd', 'sensorModel': 'asdasda', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_cascacas
+DEBUG:root:Send {'serialNumber': 'cascacas', 'sensorType': 'asd', 'sensorModel': 'asdasda', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_cascacas
+DEBUG:root:Send {'serialNumber': 'cascacas', 'sensorType': 'asd', 'sensorModel': 'asdasda', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_cascacas
+DEBUG:root:Send {'serialNumber': 'cascacas', 'sensorType': 'asd', 'sensorModel': 'asdasda', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_cascacas
+DEBUG:root:Send {'serialNumber': 'cascacas', 'sensorType': 'asd', 'sensorModel': 'asdasda', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_cascacas
+DEBUG:root:Send {'serialNumber': 'cascacas', 'sensorType': 'asd', 'sensorModel': 'asdasda', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_cascacas
+DEBUG:root:Send {'serialNumber': 'cascacas', 'sensorType': 'asd', 'sensorModel': 'asdasda', 'accessToken': '', 'protocol': 'mqtt', 'interval': 1, 'temp': -1} to topic /sensor/data | client_cascacas
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_xcbx
+DEBUG:root:Main Window
+DEBUG:root:New device instance created: 192.168.1.140:5000 | http | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f168579bdf0>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f168579b910>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f168579b4f0>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f16845d9a30>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f16845e6220>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f16845e69d0>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f16845f11c0>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f16845e6ac0>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f16845e62b0>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f168579b1c0>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f168579b8e0>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.140:5000
+ERROR:root:HTTPConnectionPool(host='192.168.1.140', port=5000): Max retries exceeded with url: /device1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f16845db640>: Failed to establish a new connection: [Errno 111] Connection refused')) | client_afas

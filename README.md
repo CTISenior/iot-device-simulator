@@ -1,19 +1,12 @@
 # Iotwin | IoT Data Generator
 
-> It is developed and designed for developers.
+[![CodeQL](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml)
 
-#### requirements
+> It is developed and designed for developers. (Tested on Ubuntu 20.04)
 
-```
-    python3
-    pip3
-    numpy
-    PyQt5
-    paho-mqtt
-    requests
-```
+**Requirements** = [ 'python3', 'pip3', 'numpy', 'PyQt5', 'paho-mqtt', 'requests' ]
 
-### default "conf/settings.json"
+### default "conf/settings.json" file
 
 ```
 {
@@ -73,7 +66,7 @@
 }
 ```
 
-### default "data/devices.json"
+### default "data/devices.json" file
 
 ```
 {

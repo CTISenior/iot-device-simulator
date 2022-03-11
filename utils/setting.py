@@ -1,6 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import json
+#import yaml
 
 
 class Setting:
@@ -15,7 +16,7 @@ class Setting:
     def getClientID(self):
         return self.data['gateway']['client_id']
 
-    def getGatewayHost(self): #iot gateway IP
+    def getGatewayHost(self):
         return self.data['gateway']['host']
 
     def getDefaultKeys(self):
@@ -26,24 +27,16 @@ class Setting:
         userData['usr'] = ""
         userData['passwd'] = ""
 
-        if(self.isSecure()):
+        if self.isSecure() :
             userData['usr'] = self.data['gateway']['security']['username']
             userData['passwd'] = self.data['gateway']['security']['password']
         return userData
     
     def isSecure(self):
-        status = self.data['gateway']['security']['isSecure']
-
-        if(status):
-            return True
-        return False
+        return self.data['gateway']['security']['isSecure']
 
     def getSslStatus(self):
-        status = self.data['gateway']['ssl']['certificates']
-        
-        if(status):
-            return True
-        return False
+        return self.data['gateway']['ssl']['certificates']
 
     def getProtocolPort(self, protocol):
         return self.data['gateway']['protocols'][protocol]['port']
@@ -58,21 +51,17 @@ class Setting:
         
         securityObj = self.data['gateway']['protocols'][protocol]['security']
 
-        if(self.isProtocolSecure(protocol)):
+        if self.isProtocolSecure(protocol):
             userData['usr'] = securityObj['username']
             userData['passwd'] = securityObj['password']
             
         return userData
 
     def isProtocolSecure(self, protocol):
-        status = self.data['gateway']['protocols'][protocol]['security']['isSecure']
-
-        if(status):
-            return True
-        return False
+        return self.data['gateway']['protocols'][protocol]['security']['isSecure']
 
     def getCertificates(self):
-        if(self.getSslStatus()):
+        if self.getSslStatus():
             caCert = self.data['gateway']['ssl']['caCert']
             cert = self.data['gateway']['ssl']['cert']
 
@@ -83,7 +72,3 @@ class Setting:
 
     def getBrokerInfo(self):
         return self.getBrokerName() + "\n" + self.getBrokerHost() + "\n" + self.getBrokerPort() + "\n" + self.getBrokerTopic() + "\n" +self.getBrokerID() + "\n" + str(self.isSecure()) + "\n" + str(self.getSslStatus())
-
-if __name__ == "__main__":
-    print("main-setting")
-    

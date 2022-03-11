@@ -1,5 +1,7 @@
 # IoTwin | Data Generator
 
+[![Python](https://badgen.net/pypi/python/black)](https://www.python.org/downloads/)
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 [![CodeQL](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml)
 
 > It is developed and designed for developers. (Tested on Ubuntu 20.04)

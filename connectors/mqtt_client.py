@@ -1,23 +1,27 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
+import sys
 import time
 import json
 import threading
+import queue
 import logging
 
 from paho.mqtt import client as mqtt_client
 
-from utils.simulator import Simulator
+from utils.data_generator import DataGenerator
 from utils.setting import Setting
 import utils.helper as Helper
 
 
-
 class MQTT_Client:
-    def __init__(self, sn, dataObj, protocol='mqtt',):
+    def __init__(self, host, sn, dataObj, protocol='mqtt',):
         
+        self.host = host
+        self.sn = sn
+        self.dataObj = dataObj
+
         stg = Setting()
-        self.host = stg.getGatewayHost()
         self.protocol = protocol
         self.port = stg.getProtocolPort(self.protocol)
         self.topic = stg.getProtocolTopic(self.protocol)
@@ -27,28 +31,31 @@ class MQTT_Client:
         #self.clientID = stg.getBrokerID()
         self.clientID = 'client_' + sn
 
-        self.sn = sn
-        self.dataObj = dataObj
         self.thread = None
         self.timeout = False
-        
-        #logging.basicConfig(filename="logs/"+self.clientID, level=logging.DEBUG)
-        logging.debug(f'New device instance created: {self.host}:{self.port} | {self.protocol} | {self.clientID}')
+
+
+        logfile = Helper.get_device_log_file(self.sn)
+        self.logger = Helper.create_logger(f'{self.protocol}-{self.clientID}', logfile)
+        self.logger.debug(f'New device instance created: [{self.host}:{self.port} - {self.protocol}]')
 
     def get(self):
         print("get")
+        #return self
 
     def set(self):
         print("set")
 
-    def connect_mqtt(self):
+    def connect(self):
         def on_connect(client, userdata, flags, rc):
-            if rc == 0:            
-                logging.debug(f'Connected to MQTT Broker {self.host}:{self.port} {self.clientID}')
-                print(f'Connected to MQTT Broker {self.host}:{self.port} {self.clientID}')
+            if rc == 0:
+                msg = f'Connected to MQTT Broker: [{self.host}:{self.port}]'
+                print(f'[{self.sn}] | {msg}')
+                self.logger.debug( msg )
             else:
-                logging.error(f'Failed to connect, return code {str(rc)} | {self.clientID}')
-                print(f'Failed to connect, return code {str(rc)} | {self.clientID}')
+                err = f'Failed to connect to the MQTT Broker, return code: {str(rc)}'
+                self.logger.error( err )
+                print(f'[{self.sn}] | {err}')
                 
         client = mqtt_client.Client(self.clientID)
         client.username_pw_set(self.username, self.password)
@@ -57,79 +64,64 @@ class MQTT_Client:
         client.connect(self.host, self.port)
         return client
 
+    def disconnect(self):
+
+        try:
+            self.client.disconnect()
+            #self.client.loop_stop()
+            self.logger.debug(f'Disconnect [{self.protocol}]')
+        except:
+            pass
+            #self.logger.error(f'Error occured while disconnecting! [{self.protocol}]')
+
     def publish(self, client, msg):
         newMsg = json.loads(msg)
         interval = self.dataObj['interval']
-        keyValue = self.dataObj['keyValue']
+        keyValueList = self.dataObj['keyValue']
 
-        key = keyValue[0]['key']
-        s1 = Simulator(keyValue[0]['initValue'])
-       
-        key2 = keyValue[1]['key']
-        if(key2 != ''):
-            s2 = Simulator(keyValue[1]['initValue'])
-        
-        key3 = keyValue[2]['key']
-        if(key3 != ''):
-            s3 = Simulator(keyValue[2]['initValue'])
-        
+        #data = {}
+        objects = []
+        for keyValue in keyValueList:
+            objects.append ( DataGenerator( keyValue['key'], keyValue['initValue'], keyValue['valueType'] ))
 
-        Helper.update_json(self.dataObj)
-        
-        while self.timeout == False:
-            newMsg[key] = s1.simulate()
-            if(key2 != ''):
-                newMsg[key2] = s2.simulate()
-            if(key3 != ''):
-                newMsg[key3] = s3.simulate()
+        while not self.timeout:
+            for obj in objects:
+                newMsg[ obj.get_key() ] = obj.generate_data()
 
             result = client.publish(self.topic, json.dumps(newMsg))
 
             if result[0] == 0:  #[0, 1]
-                logging.debug(f'Send {newMsg} to topic {self.topic} | {self.clientID}')
-                print(f'Send {newMsg} to topic {self.topic} | {self.clientID}')
+                self.logger.info(f'Publish {newMsg} to [{self.topic}] topic successfully')
+                #print(f'Sent {newMsg} to topic {self.topic} successfully')
             else:
-                logging.error(f'Failed to send message to topic {self.topic} | {self.clientID}')
+                self.logger.error(f'Failed to publish message to topic: {self.topic}')
             
             time.sleep(interval)
 
     def run(self, msg):
-        self.client = self.connect_mqtt()
-        print("CLIENT-------")
-        print(self.client)
-        self.client.loop_start()
-        print("Run MQTT") #log
-        #logging.debug(f'Run MQTT {self.topic} | {self.clientID}')
+        self.logger.debug(f'Run [{self.protocol}]')
+
+        self.client = self.connect()
+        #self.client.loop_start()
         
         try:
-            self.thread = threading.Thread(target = self.publish, args = (self.client, msg,), name = "thread-client_"+self.sn)
+            self.thread = threading.Thread(
+                target = self.publish, 
+                args = (self.client, msg,), 
+                name = "thread-client_"+self.sn
+            )
             self.thread.setDaemon(True) 
             self.thread.start()
+            self.logger.debug(f'Create thread [{self.protocol}]')
         except:
-            #print("An exception occurred 2")
-            raise Exception("An exception occurred")
-            logging.error(f'Disconnected result code: {self.host}:{self.port} | {self.clientID}')
-        
-    def stop_mqtt(self):
-        def on_disconnect(client, userdata, rc=0):
-            print("Stop MQTT")
-            
-            logging.debug(f'Disconnected result code: {str(rc)}')
-            client.loop_stop()
-   
-    #@classmethod
+            err = f'An exception occurred while publishing data: [{self.host}:{self.port}]'
+            self.logger.error( err )
+            print(f'{self.sn} | {err}')
+            #raise Exception('')
+    
+
     def get_client_ID(self):
-        print(self.clientID)
         return self.clientID
-
-    def stop_thread(self):
-        print(self.thread.is_alive())
-
-        self.client.loop_stop()  #stop loop 
-        self.client.disconnect() #disconnect
-
-        self.timeout = True
-        self.thread.join()
 
     def get_thread(self):
         return self.thread
@@ -137,11 +129,16 @@ class MQTT_Client:
     def check_thread(self):
         return self.thread.is_alive()
 
-    def connect2():
-        print("connect")
-
-    def disconnect2():
-        print("disconnect")  
+    def stop_thread(self):
+        self.disconnect()
+        try:
+            self.timeout = True
+            self.thread.join()
+            msg = f'Stop thread [{self.protocol}]'
+            self.logger.debug( msg )
+            print(f'{self.sn} | {msg}')
+        except:
+            self.logger.error(f'Thread could not be stopped! [{self.protocol}]')
 
     #def __call__(self):
         #print("tst-callback")

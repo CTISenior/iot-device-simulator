@@ -204,7 +204,7 @@ class AddDialog(QTabWidget):
          not invalidEditField or 
          not invalidKeyField
       ):
-         err = 'Invalid input! (Min 3 characters)'
+         err = 'Invalid input! (Min: 3 and Max: 30 characters)'
          self.deviceStatus.setText(err)
          GUIHelper.show_message_box(
             self, 

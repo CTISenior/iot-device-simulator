@@ -99,8 +99,6 @@ class HTTP_Client:
         try:
             response = self.session.post(self.url, json=body, headers=self.headers, auth=(self.username, self.password))
             response.raise_for_status()
-            
-            self.logger.debug(f'Response: {response}')
             #print(f'{self.sn} | POST - Status: {r.status_code} - Sent message: {body} to {self.endpoint}')
             self.logger.info(f'POST: Status: {response.status_code} | Publish message: {body} to [{self.endpoint}] endpoint successfully')
         except requests.exceptions.HTTPError as err_h:

@@ -20,10 +20,10 @@ setup(
     python_requires=">=3.6",
     packages=['iotwin-data-generator'],
     install_requires=[
-        'numpy',
         'PyQt5',
         'paho-mqtt',
         'requests',
+        'numpy'
     ],
     scripts=[
         'main'

@@ -1,4 +1,4 @@
-numpy
 PyQt5
 paho-mqtt
 requests
+numpy

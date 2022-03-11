@@ -6,7 +6,7 @@
 
 > It is developed and designed for developers. (Tested on Ubuntu 20.04)
 
-**Requirements** = [ 'python3', 'pip3', 'numpy', 'PyQt5', 'paho-mqtt', 'requests' ]
+**Requirements** = [ 'PyQt5', 'paho-mqtt', 'requests', 'numpy' ]
 
 ### default "conf/settings.json" file
 

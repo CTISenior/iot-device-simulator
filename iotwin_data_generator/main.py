@@ -39,8 +39,6 @@ from PyQt5.QtGui import (
 )
 
 
-
-
 class MainWindow(QMainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
@@ -311,7 +309,7 @@ class MainWindow(QMainWindow):
                 GUIHelper.show_message_box(
                     self, 
                     msg=f'Start device: [{self.current_deviceSN}]', 
-                    title='Success!'
+                    title='Success'
                 )
             else:
                 #self.logger.warning(f'Protocol is not supported!: [{self.current_deviceSN} - {protocol}]')
@@ -345,7 +343,7 @@ class MainWindow(QMainWindow):
             GUIHelper.show_message_box(
                 self, 
                 msg=f'Stop device: {self.current_deviceSN}', 
-                title='Success!'
+                title='Success'
             )
 
     def deleteDevice(self):
@@ -355,7 +353,7 @@ class MainWindow(QMainWindow):
             GUIHelper.show_message_box(
                 self, 
                 msg=f'Delete device: [{self.current_deviceSN}]', 
-                title='Success!'
+                title='Success'
             )
         else:
             GUIHelper.show_message_box(

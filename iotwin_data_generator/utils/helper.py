@@ -103,7 +103,7 @@ def remove_device_log_files():
     '''
 
 def validate_field(inp):
-    if inp != '' and len(inp) >= 3:
+    if inp != '' and len(inp) >= 3 and len(inp) <= 30 :
         return True
     return False
 

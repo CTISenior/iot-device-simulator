@@ -274,6 +274,7 @@ class MainWindow(QMainWindow):
                 )
             
             #keys = [item['key'] for item in dev['keyValue']]
+            #keys2 = devices[i]['keyValue'][0:len(devices[i]['keyValue'])]
             keys, init_values, value_types  = [], [], []
             for item in devices[i]['keyValue']:
                 keys.append(item['key'])
@@ -282,7 +283,7 @@ class MainWindow(QMainWindow):
             
             self.tableWidget.setItem(
                 i, 4, 
-                QTableWidgetItem(str(keys) )
+                QTableWidgetItem(str(keys))
             )
             self.tableWidget.setItem(
                 i, 5, 
@@ -387,7 +388,7 @@ class MainWindow(QMainWindow):
         reply = msgBox.exec()
 
         if reply == QMessageBox.Ok:
-            #Helper.remove_device_log_files() # delete all device .log files
+            Helper.remove_device_log_files() # delete all device .log files
             self.logger.debug(f'Delete all device log files ["./logs/deviceLogs/*"]')
             self.logger.debug(f'Main Window closed')
 

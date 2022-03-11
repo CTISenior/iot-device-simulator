@@ -1,4 +1,4 @@
-# Iotwin | IoT Data Generator
+# IoTwin | Data Generator
 
 [![CodeQL](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml)
 

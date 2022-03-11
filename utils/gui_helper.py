@@ -12,14 +12,32 @@ from PyQt5.QtWidgets import (
 )
 
 
-def showDialog(self, msg, sn):
-    self.logger.warning(f'{msg}: [{sn}]')
-    button = QMessageBox.warning(
-        self,
-        'Warning!',
-        msg
-    )
+def show_message_box(self, msg, title, msgType='information'):
+    msgBox = QMessageBox(self)
 
+    if msgType == 'warning':
+        msgBox.setIcon(QMessageBox.Warning)
+        self.logger.warning( msg )
+    elif msgType == 'question':
+        msgBox.setIcon(QMessageBox.Question)
+        msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+    else: #Information
+        msgBox.setIcon(QMessageBox.Information)
+        self.logger.info( msg )
+
+    
+    msgBox.setText( msg )
+    msgBox.setWindowTitle( title )
+    msgBox.show()
+
+    return msgBox
+
+    # Define function for the buttons
+    def msgButton(self, i):
+        if i.text() == '&OK' :
+            print("OK Button is pressed.")
+        else:
+            print("Cancel Button is pressed.")
 
 def create_key_value_fields(rowNum):
     keyComboBox = QComboBox()
@@ -37,7 +55,7 @@ def create_key_value_fields(rowNum):
 
     checkBox = QCheckBox()
 
-    if(rowNum == 0):
+    if rowNum == 0 :
         checkBox.setEnabled(False)
         checkBox.setChecked(True)
     else:
@@ -72,9 +90,3 @@ def set_default_keys(keyComboBox):
 
     for key in default_keys:
         keyComboBox.addItem(key)
-
-
-def validateField(string):
-    if(len(string) < 3):
-        return False
-    return True

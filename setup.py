@@ -9,24 +9,22 @@ VERSION = "1.0"
 
 setup(
     version=VERSION,
-    name="iot-device-simulator",
+    name="iot-data-generator",
     author="IoTeam",
     author_email="",
-    description="IoTwin Device Simulator",
+    description="IoTwin | Data Generator",
     url="",
     long_description=long_description,
     long_description_content_type="text/markdown",
     include_package_data=True,
     python_requires=">=3.6",
-    packages=['iot-device-simulator'],
+    packages=['iot-data-generator'],
     install_requires=[
-        'pip3',
         'numpy',
         'PyQt5',
         'paho-mqtt',
         'requests',
-        'json'
     ],
     scripts=[
-            'main',
-           ]
+        'main'
+    ]

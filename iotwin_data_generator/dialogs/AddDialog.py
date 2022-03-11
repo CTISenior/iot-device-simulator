@@ -230,10 +230,22 @@ class AddDialog(QTabWidget):
          Helper.update_json(dataObj)
          self.deviceStatus.setText(f'Added!')
          self.MainWindow.display_devices() ## refresh content
-         self.logger.debug(f'New device added: [{deviceSN} - {protocol}]')
+         GUIHelper.show_message_box(
+            self, 
+            msg = f'New device added: [{deviceSN} - {protocol}]',
+            title = 'Success'
+         )
+         #self.logger.debug(f'New device added: [{deviceSN} - {protocol}]')
       else:
-         self.deviceStatus.setText(f'Device already exists!')
-         self.logger.warning(f'Device already exists!: [{deviceSN} - {protocol}]')
+         err = 'DeviceSN already exists!'
+         self.deviceStatus.setText(err)
+         GUIHelper.show_message_box(
+            self, 
+            msg = f'{err}: [{deviceSN} - {protocol}]',
+            title = 'Warning!',
+            msgType = 'warning'
+         )
+         #self.logger.warning(f'Device already exists!: [{deviceSN} - {protocol}]')
 
 
 

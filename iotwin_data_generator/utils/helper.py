@@ -6,6 +6,7 @@ import json
 #import yaml
 import threading
 import logging
+import html
 
 devices_json_file = 'data/devices.json'
 device_log_directory = './logs/deviceLogs'
@@ -109,6 +110,8 @@ def validate_field(inp):
 def check_duplicated_keys(key_list):
     return any(key_list.count(element) > 1 for element in key_list)
 
+def sanitize(input):
+    return html.escape(input)
 
 def create_logger(name ,log_file):
     logger = logging.getLogger( name )

@@ -6,7 +6,7 @@ import logging
 import time
 import threading
 
-from windows.AddDialog import AddDialog
+from dialogs.AddDialog import AddDialog
 from connectors.client import Client
 import utils.helper as Helper
 import utils.gui_helper as GUIHelper

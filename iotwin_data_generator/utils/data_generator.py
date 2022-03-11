@@ -20,12 +20,16 @@ class DataGenerator:
         return self.value
 
     def get_value(self):
-        if self.value_type == 'RN': #RandomNumber
+        if self.value_type == 'RN': #RandomNumber [-1, 0, 1]
             return self.generate_random_value()
-        elif self.value_type == 'RFN': #RandomFloatNumber
+        elif self.value_type == 'RFN': #RandomFloatNumber [-0.5, 0, 0.5]
             return self.generate_random_float_value()
-        elif self.value_type == 'RFN-2': #RandomFloatNumber
+        elif self.value_type == 'RFN-2': #RandomFloatNumber [-0.1, 0, 0.1]
             return self.generate_random_float_value2()
+        elif self.value_type == 'RFN-3': #RandomFloatNumber [-0.05, 0, 0.05]
+            return self.generate_random_float_value3()
+        elif self.value_type == 'RFN-4': #RandomFloatNumber [-0.01, 0, 0.01]
+            return self.generate_random_float_value4()
         else: #ConstantNumber
             return self.generate_constant()
 

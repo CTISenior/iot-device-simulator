@@ -51,6 +51,8 @@ def create_key_value_fields(rowNum):
     valueTypeBox.addItem('RN') #RandomNumber [-1, 0, 1]
     valueTypeBox.addItem('RFN') #RandomFloatNumber [-0.5, 0, 0.5]
     valueTypeBox.addItem('RFN-2') #RandomFloatNumber [-0.1, 0, 0.1]
+    valueTypeBox.addItem('RFN-3') #RandomFloatNumber [-0.05, 0, 0.05]
+    valueTypeBox.addItem('RFN-4') #RandomFloatNumber [-0.01, 0, 0.01]
     valueTypeBox.addItem('CN') #ConstantNumber
 
     checkBox = QCheckBox()

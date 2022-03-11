@@ -169,10 +169,12 @@ class AddDialog(QTabWidget):
       ]
 
 
-      areKeysValid = False
-      areFieldsValid = False
+      invalidEditField = True
+      invalidKeyField = True
       for field in fieldsToValidate:
-         areFieldsValid = Helper.validate_field(field)
+         invalidEditField = Helper.validate_field(field)
+         if(not invalidEditField):
+            break
 
 
       key_list = []
@@ -194,14 +196,15 @@ class AddDialog(QTabWidget):
 
             dataObj["keyValue"].append(obj)
             
-            areKeysValid = Helper.validate_field(key)
-          
-      
+            if(not Helper.validate_field(key)):
+               invalidKeyField = False
+               
+
       if (
-         not areFieldsValid or 
-         not areKeysValid
+         not invalidEditField or 
+         not invalidKeyField
       ):
-         err = 'Invalid input!'
+         err = 'Invalid input! (Min 3 characters)'
          self.deviceStatus.setText(err)
          GUIHelper.show_message_box(
             self, 

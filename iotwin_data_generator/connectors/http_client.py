@@ -52,7 +52,7 @@ class HTTP_Client:
         self.session = requests.Session()
         self.session.auth = (self.username, self.password)
 
-        msg = f'Session created [{self.protocol}]'
+        msg = f'New session created [{self.protocol}]'
         self.logger.debug( msg )
         print(f'{self.sn} | {msg}')
 

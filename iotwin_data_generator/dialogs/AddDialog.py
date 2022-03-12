@@ -150,14 +150,6 @@ class AddDialog(QTabWidget):
          "accessToken": "",
          "keyValue": [],
          "protocol": protocol,
-         "security": {
-            "secure": False,
-            "credentials":""
-         },
-         "ssl": {
-            "certificates": False,
-            "cert": ""
-         },
          "thread": True,
          "interval": interval
       }

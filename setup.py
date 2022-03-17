@@ -5,6 +5,10 @@ long_description = ""
 with open("README.md", 'r') as f:
     long_description = f.read()
 
+required = []
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+
 VERSION = "1.2.0"
 
 setup(
@@ -19,14 +23,10 @@ setup(
     include_package_data=True,
     python_requires=">=3.6",
     packages=['iotwin_data_generator'],
-    install_requires=[
-        'python3-pyqt5',
-        'numpy',
-        'paho-mqtt',
-        'requests'
-    ],
-    scripts={
-        'runners': [
-            'iotwin-data-generator = iotwin_data_generator.main:daemon',
+    install_requires=required,
+    entry_points={
+        'gui_scripts': [
+            'iotwin-data-generator = iotwin_data_generator.__main__:main'
         ]
-    })
+    }
+)

@@ -9,11 +9,12 @@
 ## Installation
 
 ```
->_ sudo apt install -y python3-dev python3-pip git libglib2.0-dev
+>_ sudo apt update -y
+>_ sudo apt install -y python3-dev python3-pip git libglib2.0-dev libxkbcommon-x11-0 libqt5x11extras5
 >_ git clone https://github.com/CTISenior/iotwin-data-generator.git
 >_ cd iotwin-data-generator
->_ python3 setup.py install
->_ python3 ./iotwin_data_generator/main.py
+>_ sudo python3 setup.py install
+>_ sudo python3 ./iotwin_data_generator/main.py
 ```
 
 

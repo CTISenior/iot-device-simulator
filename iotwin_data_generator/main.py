@@ -11,7 +11,7 @@ from connectors.client import Client
 import utils.helper as Helper
 import utils.gui_helper as GUIHelper
 
-from PyQt5.QtWidgets import (
+from PySide2.QtWidgets import (
     QMainWindow,
     QHeaderView,
     QApplication,
@@ -30,11 +30,11 @@ from PyQt5.QtWidgets import (
     QAbstractItemView,
     QPlainTextEdit
 )
-from PyQt5.QtCore import (
+from PySide2.QtCore import (
     Qt,
     QEvent
 )
-from PyQt5.QtGui import (
+from PySide2.QtGui import (
     QTextCursor
 )
 

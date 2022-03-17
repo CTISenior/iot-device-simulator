@@ -9,7 +9,7 @@ from utils.setting import Setting
 import utils.helper as Helper
 import utils.gui_helper as GUIHelper
 
-from PyQt5.QtWidgets import (
+from PySide2.QtWidgets import (
    QFormLayout,
    QComboBox,
    QVBoxLayout,
@@ -25,7 +25,7 @@ from PyQt5.QtWidgets import (
    QPushButton
 
 )
-from PyQt5.QtCore import (
+from PySide2.QtCore import (
     Qt,
     QSize
 )  

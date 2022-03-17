@@ -1,4 +1,4 @@
-python3-pyqt5
+pyside2
 numpy
 paho-mqtt
 requests

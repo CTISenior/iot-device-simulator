@@ -8,7 +8,7 @@
 
 **Requirements** = [ 'PyQt5', 'paho-mqtt', 'requests', 'numpy' ]
 
-### default "conf/settings.json" file
+### default "config/settings.json" file
 
 ```
 {
@@ -19,13 +19,13 @@
         "default_keys": ["temp", "hum", "custom"],
         "security": {
             "isSecure": false,
-            "username": "",
-            "password": ""
+            "username": "username",
+            "password": "password"
         },
         "ssl": {
             "certificates": false,
-            "caCert": "",
-            "cert": ""
+            "cert": "~/ssl/cert.pem",
+            "key": "~/ssl/key.pem"
         },
         "protocols": {
             "mqtt": {
@@ -35,13 +35,13 @@
                 "method": null,
                 "security": {
                     "isSecure": false,
-                    "username": "",
-                    "password": ""
+                    "username": "username",
+                    "password": "password"
                 },
                 "ssl": {
                     "certificates": false,
-                    "caCert": "",
-                    "cert": ""
+                    "cert": "~/ssl/cert.pem",
+                    "key": "~/ssl/key.pem"
                 }
             },
             "http": {
@@ -51,13 +51,13 @@
                 "method": "post",
                 "security": {
                     "isSecure": false,
-                    "username": "",
-                    "password": ""
+                    "username": "username",
+                    "password": "password"
                 },
                 "ssl": {
                     "certificates": false,
-                    "caCert": "",
-                    "cert": ""
+                    "cert": "~/ssl/cert.pem",
+                    "key": "~/ssl/key.pem"
                 }
             },
             "": {

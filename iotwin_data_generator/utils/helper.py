@@ -28,7 +28,6 @@ def create_directory(fileName):
 
 def init():
     create_directory(device_log_directory)
-    create_directory('./certificates')
 
 def read_json():
     with open(devices_json_file, 'r') as file:

@@ -18,14 +18,15 @@ setup(
     long_description_content_type="text/markdown",
     include_package_data=True,
     python_requires=">=3.6",
-    packages=['iotwin-data-generator'],
+    packages=['iotwin_data_generator'],
     install_requires=[
-        'PyQt5',
+        'python3-pyqt5',
+        'numpy',
         'paho-mqtt',
-        'requests',
-        'numpy'
+        'requests'
     ],
-    scripts=[
+    scripts={
         'runners': [
             'iotwin-data-generator = iotwin_data_generator.main:daemon',
-    ]
+        ]
+    })

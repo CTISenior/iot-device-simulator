@@ -6,15 +6,12 @@
 
 > It is developed and designed for developers. (Tested on Ubuntu 20.04)
 
-**Requirements** = [ 'pyqt5', 'numpy', 'paho-mqtt', 'requests' ]
-
 ## Installation
 
 ```
->_ sudo apt install python3-dev python3-pip git libglib2.0-dev
+>_ sudo apt install -y python3-dev python3-pip git libglib2.0-dev
 >_ git clone https://github.com/CTISenior/iotwin-data-generator.git
 >_ cd iotwin-data-generator
->_ mkdir logs
 >_ python3 setup.py install
 >_ python3 ./iotwin_data_generator/main.py
 ```

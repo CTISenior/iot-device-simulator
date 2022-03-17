@@ -6,7 +6,7 @@ import json
 
 class Setting:
     def __init__(self):
-        f = open('./conf/settings.json')
+        f = open('./config/settings.json')
         self.data = json.load(f)
         f.close()
     

@@ -5,7 +5,7 @@ long_description = ""
 with open("README.md", 'r') as f:
     long_description = f.read()
 
-VERSION = "1.0"
+VERSION = "1.2.0"
 
 setup(
     version=VERSION,
@@ -26,5 +26,6 @@ setup(
         'numpy'
     ],
     scripts=[
-        'main'
+        'console_scripts': [
+            'iotwin-data-generator = iotwin_data_generator.main:daemon',
     ]

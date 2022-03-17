@@ -26,6 +26,6 @@ setup(
         'numpy'
     ],
     scripts=[
-        'console_scripts': [
+        'runners': [
             'iotwin-data-generator = iotwin_data_generator.main:daemon',
     ]

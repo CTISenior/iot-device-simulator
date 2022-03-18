@@ -200,12 +200,12 @@ class MainWindow(QMainWindow):
         
         logfile = Helper.get_device_log_file(sn)
         log_lines = Helper.read_log_file(logfile)
+        logfilename = Helper.get_device_log_file(sn)
 
         if log_lines != None:
             self.log_area.appendPlainText("\n".join(log_lines))
 
             if status != False : # if the device running, start threading to display logs
-                logfilename = Helper.get_device_log_file(sn)
                 logfile = open(logfilename,"r")
                 logfile.seek(0, os.SEEK_END)
                 self.display_logs = True

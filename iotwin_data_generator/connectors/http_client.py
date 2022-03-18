@@ -99,10 +99,10 @@ class HTTP_Client:
         try:
             response = self.session.post(self.url, json=body, headers=self.headers, auth=(self.username, self.password))
             response.raise_for_status()
-            #print(f'{self.sn} | POST - Status: {r.status_code} - Sent message: {body} to {self.endpoint}')
-            self.logger.info(f'POST: Status: {response.status_code} | Publish message: {body} to [{self.endpoint}] endpoint successfully')
+            #print(f'{self.sn} | POST - Status: {r.status_code} - Publish telemetry data: {body} to {self.endpoint}')
+            self.logger.info(f'POST: Status: {response.status_code} | Publish telemetry data: {body} to [{self.endpoint}] endpoint successfully')
         except requests.exceptions.HTTPError as err_h:
-            error_msg = f'Http Error: {err_h}'
+            error_msg = f'HTTP Error: {err_h}'
             self.logger.error( error_msg )
             #raise Exception('')
         except requests.exceptions.ConnectionError as err_c:
@@ -150,7 +150,7 @@ class HTTP_Client:
             self.thread.start()
             self.logger.debug(f'Create a thread [{self.protocol}]')
         except:
-            err = f'An exception occurred while publishing data: [{self.host}:{self.port}]'
+            err = f'An exception occurred while publishing telemetry data: [{self.host}:{self.port}]'
             self.logger.error( err )
             print(f'{self.sn} | {err}')
 

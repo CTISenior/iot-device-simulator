@@ -15,7 +15,7 @@ import utils.helper as Helper
 
 
 class MQTT_Client:
-    def __init__(self, host, sn, dataObj, protocol='mqtt',):
+    def __init__(self, host, sn, dataObj, protocol='mqtt'):
         
         self.host = host
         self.sn = sn
@@ -91,10 +91,10 @@ class MQTT_Client:
             result = client.publish(self.topic, json.dumps(newMsg))
 
             if result[0] == 0:  #[0, 1]
-                self.logger.info(f'Publish {newMsg} to [{self.topic}] topic successfully')
+                self.logger.info(f'Publish telemetry data: {newMsg} to [{self.topic}] topic successfully')
                 #print(f'Sent {newMsg} to topic {self.topic} successfully')
             else:
-                self.logger.error(f'Failed to publish message to topic: {self.topic}')
+                self.logger.error(f'Failed to publish telemetry data to topic: {self.topic}')
             
             time.sleep(interval)
 
@@ -114,7 +114,7 @@ class MQTT_Client:
             self.thread.start()
             self.logger.debug(f'Create thread [{self.protocol}]')
         except:
-            err = f'An exception occurred while publishing data: [{self.host}:{self.port}]'
+            err = f'An exception occurred while publishing telemetry data: [{self.host}:{self.port}]'
             self.logger.error( err )
             print(f'{self.sn} | {err}')
             #raise Exception('')

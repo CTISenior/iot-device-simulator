@@ -299,7 +299,7 @@ class MainWindow(QMainWindow):
     def startDevice(self):
         if self.check_device_status() == False:
             deviceObj = Helper.get_device_data(self.current_deviceSN)
-            msg = Helper.create_message(deviceObj)
+            msg = Helper.prepare_telemetry_data(deviceObj)
             
             new_client = Client()
             device_instance = new_client.run(self.current_deviceSN, deviceObj, msg, deviceObj['protocol'])

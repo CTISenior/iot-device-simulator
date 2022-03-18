@@ -120,7 +120,7 @@ def create_logger(name ,log_file):
     logger.addHandler(fh)
     return logger
 
-def create_message(dataObj):
+def prepare_telemetry_data(dataObj):
     msg = {
         "serialNumber": dataObj['serialNumber'],
         "sensorType": dataObj['sensorType'],

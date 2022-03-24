@@ -53,16 +53,12 @@ class MainWindow(QMainWindow):
         self.device_instance_list = [] 
 
         Helper.init()
-
         
         self.logger = Helper.create_logger('main', './logs/main.log')
         self.logger.debug('Main window created')
 
-        
         self.initMenuBar()
         self.initUI()
-
-        self.display_log_thread = None
 
         self.add_window = AddDialog(self)
 
@@ -84,9 +80,6 @@ class MainWindow(QMainWindow):
         devicesMenuBar.addAction(newDevice_act)
         devicesMenuBar.addAction(command_act)
 
-        helpMenuBar = menubar.addMenu('Help')
-        thread_act = QAction('List Threads', self)
-        helpMenuBar.addAction(thread_act)
 
     def initUI(self):
         main_layout = QGridLayout()
@@ -118,10 +111,9 @@ class MainWindow(QMainWindow):
         vbox = QVBoxLayout()
 
         self.tableWidget = QTableWidget()
-        self.tableWidget.setColumnCount(8)
-        self.tableWidget.setColumnHidden(7, True)
+        self.tableWidget.setColumnCount(7)
         self.tableWidget.setRowCount(15)
-        self.tableWidget.setHorizontalHeaderLabels(['SN', 'Protocol', 'Interval', 'Status', 'Keys', 'Values', 'Value Types', 'Thread'])
+        self.tableWidget.setHorizontalHeaderLabels(['SN', 'Protocol', 'Interval', 'Status', 'Keys', 'Values', 'Value Types'])
 
         header = self.tableWidget.horizontalHeader()
         header.setSectionResizeMode(QHeaderView.ResizeToContents)       
@@ -185,54 +177,26 @@ class MainWindow(QMainWindow):
         self.deviceLogBox.setLayout(vbox)
     
     def tableWidget_doubleClicked(self):
-        self.stop_display_log_thread()
-
         row = self.tableWidget.currentIndex().row()
         sn = self.tableWidget.item(row, 0).text() #first column <SN> only
-        status = self.tableWidget.item(row, 7).text() #first column <SN> only
 
         self.log_area.clear() # clear list items
-        self.log_area.insertPlainText(f'Device logs: {sn}\n************************\n')
-        self.get_device_logs(sn, bool(int(status)))
+        self.get_device_logs(sn)
 
-    def get_device_logs(self, sn, status):
+    def get_device_logs(self, sn):
         self.logger.debug(f'Show device logs: {sn}')
         
         logfile = Helper.get_device_log_file(sn)
         log_lines = Helper.read_log_file(logfile)
-        logfilename = Helper.get_device_log_file(sn)
 
         if log_lines != None:
+            self.log_area.insertPlainText(f'Device logs: {sn}\n************************\n')
             self.log_area.appendPlainText("\n".join(log_lines))
-
-            if status != False : # if the device running, start threading to display logs
-                logfile = open(logfilename,"r")
-                logfile.seek(0, os.SEEK_END)
-                self.display_logs = True
-                self.display_log_thread = threading.Thread(
-                    target = self.follow_last_line, 
-                    args = (logfile,), 
-                    name = "thread-logger_"+sn
-                )
-                self.display_log_thread.setDaemon(True) 
-                self.display_log_thread.start()
         else:
-            err = f'Log file does not exists: [{logfilename}]'
-            self.b.insertPlainText(err + "\n")
+            err = f'Log file does not exists: "{Helper.get_device_log_file(sn)}"'
+            self.log_area.insertPlainText(err + "\n")
             self.logger.debug(err)
     
-    def follow_last_line(self, logfile):
-        while self.display_logs:
-            line = logfile.readline()
-            if line:
-                self.log_area.appendPlainText(line)
-            time.sleep(1)
-
-    def stop_display_log_thread(self):
-        if self.display_log_thread != None:
-            self.display_logs = False
-            self.display_log_thread.join()
-
     def display_devices(self):
         devices = Helper.read_json()['devices']
         self.tableWidget.setRowCount(len(devices))
@@ -372,7 +336,6 @@ class MainWindow(QMainWindow):
         else:
             self.logger.debug(f'AddDialog opened')
             self.add_window = AddDialog(self)
-            self.stop_display_log_thread()
             self.add_window.show()
 
     def closeEvent(self, event):

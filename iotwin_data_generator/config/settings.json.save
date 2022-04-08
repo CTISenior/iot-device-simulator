@@ -20,6 +20,7 @@
                 "port": 1883,
                 "topic_name": "/sensor/data",
                 "method": null,
+                "telemetry_keys":["serialNumber", "sensorName", "deviceType"],
                 "security": {
                     "isSecure": false,
                     "username": "",
@@ -36,6 +37,7 @@
                 "port": 5000,
                 "topic_name": "/device",
                 "method": "post",
+                "telemetry_keys":["serialNumber", "sensorName", "deviceType"],
                 "security": {
                     "isSecure": false,
                     "username": "",

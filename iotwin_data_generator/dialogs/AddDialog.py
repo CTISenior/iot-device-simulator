@@ -1,266 +1,246 @@
 #!/usr/bin/python3
 
-import sys
 import logging
-import json
-
-from connectors.client import Client
-from utils.setting import Setting
 import utils.helper as Helper
 import utils.gui_helper as GUIHelper
 
 from PySide2.QtWidgets import (
-   QFormLayout,
-   QComboBox,
-   QVBoxLayout,
-   QWidget,
-   QLabel,
-   QLineEdit,
-   QCheckBox,
-   QTabWidget,
-   QSpinBox,
-   QHBoxLayout,
-   QGridLayout,
-   QDialogButtonBox,
-   QPushButton
-
+    QFormLayout,
+    QComboBox,
+    QVBoxLayout,
+    QWidget,
+    QLabel,
+    QLineEdit,
+    QCheckBox,
+    QTabWidget,
+    QSpinBox,
+    QHBoxLayout,
+    QDialogButtonBox,
 )
 from PySide2.QtCore import (
-    Qt,
-    QSize
-)  
+    Qt
+)
 
 
 class AddDialog(QTabWidget):
-   def __init__(self, MainWindow, parent = None):
-      super(AddDialog, self).__init__(parent)
-      self.left = 250
-      self.top = 250
-      self.width = 450
-      self.height = 450
-      self.setGeometry(self.left, self.top, self.width, self.height)
+    def __init__(self, main_window, parent=None):
+        super(AddDialog, self).__init__(parent)
+        self.left = 250
+        self.top = 250
+        self.width = 450
+        self.height = 450
+        self.setGeometry(self.left, self.top, self.width, self.height)
 
-      self.MainWindow = MainWindow
+        self.main_window = main_window
 
-      #self.setFixedSize(QSize(self.width, self.height))
-      self.setWindowTitle("Add New Device")
-      
-      layout = QVBoxLayout()
-      self.setLayout(layout)
+        #self.setFixedSize(QSize(self.width, self.height))
+        self.setWindowTitle("Add New Device")
 
-      tabs = QTabWidget()
-      
-      tabs.addTab(self.tab1_UI(), "Thread")
-      tabs.addTab(self.tab2_UI(), "Custom")
-      
-      self.button_box = QDialogButtonBox(
-         QDialogButtonBox.Ok | QDialogButtonBox.Close,
-         Qt.Horizontal,
-         self
-      )
+        layout = QVBoxLayout()
+        self.setLayout(layout)
 
-      self.button_box.accepted.connect(self.add_device)
-      self.button_box.rejected.connect(self.close)
+        tabs = QTabWidget()
 
-      self.deviceStatus = QLabel()
-      self.deviceStatus.setText('')
+        tabs.addTab(self.tab1_ui(), "Thread")
+        tabs.addTab(self.tab2_ui(), "Custom")
 
-      layout2 = QHBoxLayout()
+        self.button_box = QDialogButtonBox(
+            QDialogButtonBox.Ok | QDialogButtonBox.Close,
+            Qt.Horizontal,
+            self
+        )
 
-      layout.addWidget(tabs)
-      layout2.addWidget(self.deviceStatus)
-      layout2.addWidget(self.button_box)
-      layout.addLayout(layout2)
+        self.button_box.accepted.connect(self.add_device)
+        self.button_box.rejected.connect(self.close)
 
-      self.logger = logging.getLogger('main')
-      self.logger.debug('AddDialog created')
+        self.device_status_label = QLabel()
+        self.device_status_label.setText('')
 
-   def tab1_UI(self):
-      self.tab1 = QWidget()
+        layout2 = QHBoxLayout()
 
-      tab1_boxLayout = QVBoxLayout()
-      tab1_formLayout = QFormLayout()
+        layout.addWidget(tabs)
+        layout2.addWidget(self.device_status_label)
+        layout2.addWidget(self.button_box)
+        layout.addLayout(layout2)
 
-      self.deviceSN = QLineEdit(self)
-      tab1_formLayout.addRow("SN*:", self.deviceSN)
+        self.logger = logging.getLogger('main')
+        self.logger.debug('AddDialog created')
 
-      self.deviceName = QLineEdit(self)
-      tab1_formLayout.addRow("Type/Name*:", self.deviceName)
-      self.deviceModel = QLineEdit(self)
-      tab1_formLayout.addRow("Model*:", self.deviceModel)
-      self.deviceToken = QLineEdit(self)
-      self.deviceToken.setEnabled(False)
-      tab1_formLayout.addRow("Token:", self.deviceToken)
-      
+    def tab1_ui(self):
+        self.tab1 = QWidget()
 
-      self.keyValueBoxList = []
-      for i in range(5): # 5 key-value rows
-         keyValueBox = GUIHelper.create_key_value_fields(i)
-         self.keyValueBoxList.append(keyValueBox)
+        tab1_box_layout = QVBoxLayout()
+        tab1_form_layout = QFormLayout()
 
-      for i in range(len(self.keyValueBoxList)):
-         keyComboBox, valueSpinBox, valueTypeBox, checkBox = GUIHelper.get_keyValueBox_widgets(self.keyValueBoxList[i])
+        self.device_sn = QLineEdit(self)
+        tab1_form_layout.addRow("SN*:", self.device_sn)
 
-         checkBox.toggled.connect(keyComboBox.setEnabled)
-         checkBox.toggled.connect(valueSpinBox.setEnabled)
-         checkBox.toggled.connect(valueTypeBox.setEnabled)
+        self.device_name = QLineEdit(self)
+        tab1_form_layout.addRow("Type/Name*:", self.device_name)
+        self.device_model = QLineEdit(self)
+        tab1_form_layout.addRow("Model*:", self.device_model)
+        self.device_token = QLineEdit(self)
+        self.device_token.setEnabled(False)
+        tab1_form_layout.addRow("Token:", self.device_token)
 
-         tab1_formLayout.addRow(f'Key-{str(i+1)}:', self.keyValueBoxList[i])
+        self.keyvaluebox_list = []
+        for i in range(5):  # 5 key-value rows
+            keyvaluebox = GUIHelper.create_key_value_fields(i)
+            self.keyvaluebox_list.append(keyvaluebox)
 
+        for index, value in enumerate(self.keyvaluebox_list):
+            key_combobox, value_spinbox, value_typebox, checkbox = GUIHelper.get_keyvaluebox_widgets(
+                value)
 
-      self.interval = QSpinBox(self)
-      self.interval.setRange(1, 100)
-      tab1_formLayout.addRow(QLabel("Interval(sec):"), self.interval)
+            checkbox.toggled.connect(key_combobox.setEnabled)
+            checkbox.toggled.connect(value_spinbox.setEnabled)
+            checkbox.toggled.connect(value_typebox.setEnabled)
 
-      self.protocol = QComboBox(self)
-      self.protocol.addItem("MQTT")
-      self.protocol.addItem("HTTP")
-      tab1_formLayout.addRow(QLabel("Protocol:"), self.protocol)
+            tab1_form_layout.addRow(f'Key-{str(index+1)}:', value)
 
-      self.secBox = QCheckBox("")
-      self.secBox.setEnabled(False)
-      tab1_formLayout.addRow(QLabel("Secure:"), self.secBox)
-      self.secBox.stateChanged.connect(self.click_secure)
+        self.interval = QSpinBox(self)
+        self.interval.setRange(1, 100)
+        tab1_form_layout.addRow(QLabel("Interval(sec):"), self.interval)
 
-      
-      tab1_formLayout.setSpacing(10)
-      tab1_boxLayout.addLayout(tab1_formLayout)
-      self.tab1.setLayout(tab1_boxLayout)
+        self.protocol = QComboBox(self)
+        self.protocol.addItem("MQTT")
+        self.protocol.addItem("HTTP")
+        tab1_form_layout.addRow(QLabel("Protocol:"), self.protocol)
 
-      return self.tab1
+        self.secbox = QCheckBox("")
+        self.secbox.setEnabled(False)
+        tab1_form_layout.addRow(QLabel("Secure:"), self.secbox)
+        # self.secbox.stateChanged.connect(self.click_secure)
 
-   def clickBox(state,keyComboBox):
-      keyComboBox.setEnabled(True)
+        tab1_form_layout.setSpacing(10)
+        tab1_box_layout.addLayout(tab1_form_layout)
+        self.tab1.setLayout(tab1_box_layout)
 
-   def click_secure():
-      print('secure')
+        return self.tab1
 
-   def add_device(self):
-      protocol = self.protocol.currentText().lower()
-      sensorType = self.deviceName.text()
-      sensorModel = self.deviceModel.text()
-      deviceSN = self.deviceSN.text()
-      interval = int(self.interval.value())
+    def add_device(self):
+        """Add device operation."""
 
-      #next -> gettings keys from settings.json/settings.yaml file
-      dataObj = {
-         "serialNumber": deviceSN,
-         "sensorType": sensorType,
-         "sensorModel": sensorModel,
-         "accessToken": "",
-         "keyValue": [],
-         "protocol": protocol,
-         "thread": True,
-         "interval": interval
-      }
+        protocol = self.protocol.currentText().lower()
+        sensor_type = self.deviceName.text()
+        sensor_model = self.deviceModel.text()
+        device_sn = self.deviceSN.text()
+        interval = int(self.interval.value())
 
-      fieldsToValidate = [
-         deviceSN,
-         sensorType,
-         sensorModel
-      ]
+        data_obj = {
+            "serialNumber": device_sn,
+            "sensorType": sensor_type,
+            "sensorModel": sensor_model,
+            "accessToken": "",
+            "keyValue": [],
+            "protocol": protocol,
+            "thread": True,
+            "interval": interval
+        }
 
+        fields_to_validate = [
+            device_sn,
+            sensor_type,
+            sensor_model
+        ]
 
-      invalidEditField = True
-      invalidKeyField = True
-      for field in fieldsToValidate:
-         invalidEditField = Helper.validate_field(field)
-         if(not invalidEditField):
-            break
+        invalid_edit_field = True
+        invalid_key_field = True
+        for field in fields_to_validate:
+            invalid_edit_field = Helper.validate_field(field)
+            if(not invalid_edit_field):
+                break
 
+        key_list = []
+        for index, value in enumerate(self.keyValueBoxList):
+            key_combobox, value_spinbox, value_typebox, checkbox = GUIHelper.get_keyValueBox_widgets(
+                value)
 
-      key_list = []
-      for i in range(len(self.keyValueBoxList)):
-         keyComboBox, valueSpinBox, valueTypeBox, checkBox = GUIHelper.get_keyValueBox_widgets(self.keyValueBoxList[i])
+            if checkbox.isChecked():
+                key = key_combobox.currentText()
+                value = int(value_spinbox.text())
+                value_type = value_typebox.currentText()
 
-         if checkBox.isChecked():
-            key = keyComboBox.currentText()
-            value = int(valueSpinBox.text())
-            value_type = valueTypeBox.currentText()
-            
-            obj = {
-               "key": key,
-               "initValue": value,
-               "valueType": value_type
-            }
+                obj = {
+                    "key": key,
+                    "initValue": value,
+                    "valueType": value_type
+                }
 
-            key_list.append(key)
+                key_list.append(key)
 
-            dataObj["keyValue"].append(obj)
-            
-            if(not Helper.validate_field(key)):
-               invalidKeyField = False
-               
+                data_obj["keyValue"].append(obj)
 
-      if (
-         not invalidEditField or 
-         not invalidKeyField
-      ):
-         err = 'Invalid input! (Min: 3 and Max: 30 characters)'
-         self.deviceStatus.setText(err)
-         GUIHelper.show_message_box(
-            self, 
-            msg = err,
-            title = 'Warning!',
-            msgType = 'warning'
-         )
-         return
+                if(not Helper.validate_field(key)):
+                    invalid_key_field = False
 
+        if (
+           not invalid_edit_field or
+           not invalid_key_field
+           ):
+            err = 'Invalid input! (Min: 3 and Max: 30 characters)'
+            self.device_status_label.setText(err)
+            GUIHelper.show_message_box(
+                self,
+                msg=err,
+                title='Warning!',
+                msgType='warning'
+            )
+            return
 
-      checkDuplicatedKeys = Helper.check_duplicated_keys(key_list)
-      if checkDuplicatedKeys: #same keys are invalid
-         err = 'Duplicated keys!'
-         self.deviceStatus.setText(err)
-         GUIHelper.show_message_box(
-            self, 
-            msg = err,
-            title = 'Warning!',
-            msgType = 'warning'
-         )
-         return
+        check_duplicated_keys = Helper.check_duplicated_keys(key_list)
+        if check_duplicated_keys:  # same keys are invalid
+            err = 'Duplicated keys!'
+            self.device_status_label.setText(err)
+            GUIHelper.show_message_box(
+                self,
+                msg=err,
+                title='Warning!',
+                msgType='warning'
+            )
+            return
 
-         
-      status = Helper.check_device_exist(deviceSN)
-      if status == False:
-         Helper.update_json(dataObj)
-         self.deviceStatus.setText(f'Added!')
-         self.MainWindow.display_devices() ## refresh content
-         GUIHelper.show_message_box(
-            self, 
-            msg = f'New device added: [{deviceSN} - {protocol}]',
-            title = 'Success'
-         )
-         #self.logger.debug(f'New device added: [{deviceSN} - {protocol}]')
-      else:
-         err = 'DeviceSN already exists!'
-         self.deviceStatus.setText(err)
-         GUIHelper.show_message_box(
-            self, 
-            msg = f'{err}: [{deviceSN} - {protocol}]',
-            title = 'Warning!',
-            msgType = 'warning'
-         )
-         #self.logger.warning(f'Device already exists!: [{deviceSN} - {protocol}]')
+        status = Helper.check_device_exist(device_sn)
+        if not status:
+            Helper.update_json(data_obj)
+            self.device_status_label.setText('Added!')
+            self._main_window.display_devices()  # refresh content
+            GUIHelper.show_message_box(
+                self,
+                msg=f'New device added: [{device_sn} - {protocol}]',
+                title='Success'
+            )
+            #self.logger.debug(f'New device added: [{deviceSN} - {protocol}]')
+        else:
+            err = 'DeviceSN already exists!'
+            self.device_status.setText(err)
+            GUIHelper.show_message_box(
+                self,
+                msg=f'{err}: [{device_sn} - {protocol}]',
+                title='Warning!',
+                msgType='warning'
+            )
+            #self.logger.warning(f'Device already exists!: [{deviceSN} - {protocol}]')
 
 
+########################################### tab 2 ########################
 
-########################################### tab 2 ###########################################
-   def tab2_UI(self):
-      self.tab2 = QWidget()
-      tab2_boxLayout = QVBoxLayout()
-      tab2_formLayout = QFormLayout()
-      
-      tab2_formLayout.setSpacing(10)
-      
-      tab2_boxLayout.addLayout(tab2_formLayout)
-      self.tab2.setLayout(tab2_boxLayout)
 
-      return self.tab2
+    def tab2_ui(self):
+        self.tab2 = QWidget()
+        tab2_box_layout = QVBoxLayout()
+        tab2_form_layout = QFormLayout()
+
+        tab2_form_layout.setSpacing(10)
+
+        tab2_box_layout.addLayout(tab2_form_layout)
+        self.tab2.setLayout(tab2_box_layout)
+
+        return self.tab2
 
 
 ###############################################################################
 
-   def closeEvent(self, event):
-      self.MainWindow.display_devices()
-      self.logger.warning(f'AddDialog closed')
-
+    def closeEvent(self, event):
+        self.main_window.display_devices()
+        self.logger.warning('AddDialog closed')

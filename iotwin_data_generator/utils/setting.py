@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import json
-#import yaml
 
 
 class Setting:
@@ -9,66 +8,64 @@ class Setting:
         f = open('./config/settings.json')
         self.data = json.load(f)
         f.close()
-    
-    def getGatewayName(self):
+
+    def get_gateway_name(self):
         return self.data['gateway']['name']
 
-    def getClientID(self):
+    def get_client_id(self):
         return self.data['gateway']['client_id']
 
-    def getGatewayHost(self):
+    def get_gateway_host(self):
         return self.data['gateway']['host']
 
-    def getDefaultKeys(self):
+    def get_default_keys(self):
         return self.data['gateway']['default_keys']
 
-    def getGatewayCredentials(self):
-        userData = dict(); 
-        userData['usr'] = ""
-        userData['passwd'] = ""
+    def get_gateway_credentials(self):
+        user_data = dict()
+        user_data['usr'] = ""
+        user_data['passwd'] = ""
 
-        if self.isSecure() :
-            userData['usr'] = self.data['gateway']['security']['username']
-            userData['passwd'] = self.data['gateway']['security']['password']
-        return userData
-    
-    def isSecure(self):
+        if self.is_secure():
+            user_data['usr'] = self.data['gateway']['security']['username']
+            user_data['passwd'] = self.data['gateway']['security']['password']
+        return user_data
+
+    def is_secure(self):
         return self.data['gateway']['security']['isSecure']
 
-    def getSslStatus(self):
+    def get_ssl_status(self):
         return self.data['gateway']['ssl']['certificates']
 
-    def getProtocolPort(self, protocol):
+    def get_protocol_port(self, protocol):
         return self.data['gateway']['protocols'][protocol]['port']
 
-    def getProtocolTopic(self, protocol):
+    def get_protocol_topic(self, protocol):
         return self.data['gateway']['protocols'][protocol]['topic_name']
-    
-    def getProtocolCredentials(self, protocol):
-        userData = dict(); 
-        userData['usr'] = ""
-        userData['passwd'] = ""
-        
-        securityObj = self.data['gateway']['protocols'][protocol]['security']
 
-        if self.isProtocolSecure(protocol):
-            userData['usr'] = securityObj['username']
-            userData['passwd'] = securityObj['password']
-            
-        return userData
+    def get_protocol_credentials(self, protocol):
+        user_data = dict()
+        user_data['usr'] = ""
+        user_data['passwd'] = ""
 
-    def isProtocolSecure(self, protocol):
+        security_obj = self.data['gateway']['protocols'][protocol]['security']
+
+        if self.is_protocol_secure(protocol):
+            user_data['usr'] = security_obj['username']
+            user_data['passwd'] = security_obj['password']
+
+        return user_data
+
+    def is_protocol_secure(self, protocol):
         return self.data['gateway']['protocols'][protocol]['security']['isSecure']
 
-    def getCertificates(self):
-        if self.getSslStatus():
-            caCert = self.data['gateway']['ssl']['caCert']
+    def get_certificates(self):
+        if self.get_ssl_status():
+            ca_cert = self.data['gateway']['ssl']['caCert']
             cert = self.data['gateway']['ssl']['cert']
 
-            return caCert,  cert
+            return ca_cert, cert
 
         return None
 
-
-    def getBrokerInfo(self):
-        return self.getBrokerName() + "\n" + self.getBrokerHost() + "\n" + self.getBrokerPort() + "\n" + self.getBrokerTopic() + "\n" +self.getBrokerID() + "\n" + str(self.isSecure()) + "\n" + str(self.getSslStatus())
+        

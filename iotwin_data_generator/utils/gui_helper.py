@@ -1,94 +1,92 @@
-import sys
 from utils.setting import Setting
 
 from PySide2.QtWidgets import (
-   QComboBox,
-   QLabel,
-   QLineEdit,
-   QCheckBox,
-   QSpinBox,
-   QHBoxLayout,
-   QMessageBox
+    QComboBox,
+    QLabel,
+    QCheckBox,
+    QSpinBox,
+    QHBoxLayout,
+    QMessageBox
 )
 
 
 def show_message_box(self, msg, title, msgType='information'):
-    msgBox = QMessageBox(self)
+    msgbox = QMessageBox(self)
 
     if msgType == 'warning':
-        msgBox.setIcon(QMessageBox.Warning)
-        self.logger.warning( msg )
+        msgbox.setIcon(QMessageBox.Warning)
+        self.logger.warning(msg)
     elif msgType == 'question':
-        msgBox.setIcon(QMessageBox.Question)
-        msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-    else: #Information
-        msgBox.setIcon(QMessageBox.Information)
-        self.logger.info( msg )
+        msgbox.setIcon(QMessageBox.Question)
+        msgbox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+    else:  # Information
+        msgbox.setIcon(QMessageBox.Information)
+        self.logger.info(msg)
 
-    
-    msgBox.setText( msg )
-    msgBox.setWindowTitle( title )
-    msgBox.show()
+    msgbox.setText(msg)
+    msgbox.setWindowTitle(title)
+    msgbox.show()
 
-    return msgBox
+    return msgbox
 
     # Define function for the buttons
-    def msgButton(self, i):
-        if i.text() == '&OK' :
+    def msg_button(self, i):
+        if i.text() == '&OK':
             print("OK Button is pressed.")
         else:
             print("Cancel Button is pressed.")
 
+
 def create_key_value_fields(rowNum):
-    keyComboBox = QComboBox()
-    keyComboBox.setEditable(True)
-    
-    valueSpinBox = QSpinBox()
-    valueSpinBox.setValue(0)
-    valueSpinBox.setRange(-10000, 10000)
+    key_combobox = QComboBox()
+    key_combobox.setEditable(True)
 
-    valueTypeBox = QComboBox()
-    valueTypeBox.addItem('RN') #RandomNumber [-1, 0, 1]
-    valueTypeBox.addItem('RFN') #RandomFloatNumber [-0.5, 0, 0.5]
-    valueTypeBox.addItem('RFN-2') #RandomFloatNumber [-0.1, 0, 0.1]
-    valueTypeBox.addItem('RFN-3') #RandomFloatNumber [-0.05, 0, 0.05]
-    valueTypeBox.addItem('RFN-4') #RandomFloatNumber [-0.01, 0, 0.01]
-    valueTypeBox.addItem('CN') #ConstantNumber
+    value_spinbox = QSpinBox()
+    value_spinbox.setValue(0)
+    value_spinbox.setRange(-10000, 10000)
 
-    checkBox = QCheckBox()
+    value_typebox = QComboBox()
+    value_typebox.addItem('RN')  # RandomNumber [-1, 0, 1]
+    value_typebox.addItem('RFN')  # RandomFloatNumber [-0.5, 0, 0.5]
+    value_typebox.addItem('RFN-2')  # RandomFloatNumber [-0.1, 0, 0.1]
+    value_typebox.addItem('RFN-3')  # RandomFloatNumber [-0.05, 0, 0.05]
+    value_typebox.addItem('RFN-4')  # RandomFloatNumber [-0.01, 0, 0.01]
+    value_typebox.addItem('CN')  # ConstantNumber
 
-    if rowNum == 0 :
-        checkBox.setEnabled(False)
-        checkBox.setChecked(True)
+    checkbox = QCheckBox()
+
+    if rowNum == 0:
+        checkbox.setEnabled(False)
+        checkbox.setChecked(True)
     else:
-        keyComboBox.setEnabled(False)
-        valueSpinBox.setEnabled(False)
-        valueTypeBox.setEnabled(False)
+        key_combobox.setEnabled(False)
+        value_spinbox.setEnabled(False)
+        value_typebox.setEnabled(False)
 
-    keyValueBox = QHBoxLayout()
-    keyValueBox.addWidget(keyComboBox)
-    keyValueBox.addWidget(QLabel(f'Value-{str(rowNum+1)}:'))
-    keyValueBox.addWidget(valueSpinBox)
-    keyValueBox.addWidget(valueTypeBox)
-    keyValueBox.addWidget(checkBox)
+    keyvaluebox = QHBoxLayout()
+    keyvaluebox.addWidget(key_combobox)
+    keyvaluebox.addWidget(QLabel(f'Value-{str(rowNum+1)}:'))
+    keyvaluebox.addWidget(value_spinbox)
+    keyvaluebox.addWidget(value_typebox)
+    keyvaluebox.addWidget(checkbox)
 
-    set_default_keys(keyComboBox)
+    set_default_keys(key_combobox)
 
-    return keyValueBox
-
-
-def get_keyValueBox_widgets(keyValueBox):
-    keyComboBox = keyValueBox.itemAt(0).widget()
-    valueSpinBox = keyValueBox.itemAt(2).widget()
-    valueTypeBox = keyValueBox.itemAt(3).widget()
-    checkBox = keyValueBox.itemAt(4).widget()
-
-    return keyComboBox, valueSpinBox, valueTypeBox, checkBox
+    return keyvaluebox
 
 
-def set_default_keys(keyComboBox):
+def get_keyvaluebox_widgets(keyvaluebox):
+    key_combobox = keyvaluebox.itemAt(0).widget()
+    value_spinbox = keyvaluebox.itemAt(2).widget()
+    value_typebox = keyvaluebox.itemAt(3).widget()
+    checkbox = keyvaluebox.itemAt(4).widget()
+
+    return key_combobox, value_spinbox, value_typebox, checkbox
+
+
+def set_default_keys(key_combobox):
     stg = Setting()
-    default_keys = stg.getDefaultKeys()
+    default_keys = stg.get_default_keys()
 
     for key in default_keys:
-        keyComboBox.addItem(key)
+        key_combobox.addItem(key)

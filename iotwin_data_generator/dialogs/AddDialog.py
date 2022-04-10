@@ -40,9 +40,7 @@ class AddDialog(QTabWidget):
         self.setLayout(layout)
 
         tabs = QTabWidget()
-
         tabs.addTab(self.tab1_ui(), "Thread")
-        tabs.addTab(self.tab2_ui(), "Custom")
 
         self.button_box = QDialogButtonBox(
             QDialogButtonBox.Ok | QDialogButtonBox.Close,
@@ -83,12 +81,12 @@ class AddDialog(QTabWidget):
         self.device_token.setEnabled(False)
         tab1_form_layout.addRow("Token:", self.device_token)
 
-        self.keyvaluebox_list = []
+        self.keyvaluebox = []
         for i in range(5):  # 5 key-value rows
             keyvaluebox = GUIHelper.create_key_value_fields(i)
-            self.keyvaluebox_list.append(keyvaluebox)
+            self.keyvaluebox.append(keyvaluebox)
 
-        for index, value in enumerate(self.keyvaluebox_list):
+        for index, value in enumerate(self.keyvaluebox):
             key_combobox, value_spinbox, value_typebox, checkbox = GUIHelper.get_keyvaluebox_widgets(
                 value)
 
@@ -122,15 +120,15 @@ class AddDialog(QTabWidget):
         """Add device operation."""
 
         protocol = self.protocol.currentText().lower()
-        sensor_type = self.deviceName.text()
-        sensor_model = self.deviceModel.text()
-        device_sn = self.deviceSN.text()
+        device_type = self.device_name.text()
+        device_model = self.device_model.text()
+        device_sn = self.device_sn.text()
         interval = int(self.interval.value())
 
         data_obj = {
             "serialNumber": device_sn,
-            "sensorType": sensor_type,
-            "sensorModel": sensor_model,
+            "sensorType": device_type,
+            "sensorModel": device_model,
             "accessToken": "",
             "keyValue": [],
             "protocol": protocol,
@@ -140,21 +138,20 @@ class AddDialog(QTabWidget):
 
         fields_to_validate = [
             device_sn,
-            sensor_type,
-            sensor_model
+            device_type,
+            device_model
         ]
 
         invalid_edit_field = True
         invalid_key_field = True
         for field in fields_to_validate:
             invalid_edit_field = Helper.validate_field(field)
-            if(not invalid_edit_field):
+            if not invalid_edit_field:
                 break
 
         key_list = []
-        for index, value in enumerate(self.keyValueBoxList):
-            key_combobox, value_spinbox, value_typebox, checkbox = GUIHelper.get_keyValueBox_widgets(
-                value)
+        for index, value in enumerate(self.keyvaluebox):
+            key_combobox, value_spinbox, value_typebox, checkbox = GUIHelper.get_keyvaluebox_widgets(value)
 
             if checkbox.isChecked():
                 key = key_combobox.currentText()
@@ -171,7 +168,7 @@ class AddDialog(QTabWidget):
 
                 data_obj["keyValue"].append(obj)
 
-                if(not Helper.validate_field(key)):
+                if not Helper.validate_field(key):
                     invalid_key_field = False
 
         if (
@@ -184,7 +181,7 @@ class AddDialog(QTabWidget):
                 self,
                 msg=err,
                 title='Warning!',
-                msgType='warning'
+                msg_type='warning'
             )
             return
 
@@ -196,7 +193,7 @@ class AddDialog(QTabWidget):
                 self,
                 msg=err,
                 title='Warning!',
-                msgType='warning'
+                msg_type='warning'
             )
             return
 
@@ -204,7 +201,7 @@ class AddDialog(QTabWidget):
         if not status:
             Helper.update_json(data_obj)
             self.device_status_label.setText('Added!')
-            self._main_window.display_devices()  # refresh content
+            self.main_window.display_devices()  # refresh content
             GUIHelper.show_message_box(
                 self,
                 msg=f'New device added: [{device_sn} - {protocol}]',
@@ -213,33 +210,14 @@ class AddDialog(QTabWidget):
             #self.logger.debug(f'New device added: [{deviceSN} - {protocol}]')
         else:
             err = 'DeviceSN already exists!'
-            self.device_status.setText(err)
+            self.device_status_label.setText(err)
             GUIHelper.show_message_box(
                 self,
                 msg=f'{err}: [{device_sn} - {protocol}]',
                 title='Warning!',
-                msgType='warning'
+                msg_type='warning'
             )
             #self.logger.warning(f'Device already exists!: [{deviceSN} - {protocol}]')
-
-
-########################################### tab 2 ########################
-
-
-    def tab2_ui(self):
-        self.tab2 = QWidget()
-        tab2_box_layout = QVBoxLayout()
-        tab2_form_layout = QFormLayout()
-
-        tab2_form_layout.setSpacing(10)
-
-        tab2_box_layout.addLayout(tab2_form_layout)
-        self.tab2.setLayout(tab2_box_layout)
-
-        return self.tab2
-
-
-###############################################################################
 
     def closeEvent(self, event):
         self.main_window.display_devices()

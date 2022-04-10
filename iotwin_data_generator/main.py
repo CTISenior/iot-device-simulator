@@ -61,7 +61,7 @@ class MainWindow(QMainWindow):
         refresh_act = QAction('Refresh', self)
         close_act = QAction('Close', self)
         refresh_act.triggered.connect(self.display_devices)
-        close_act.triggered.connect(self.closeEvent)
+        close_act.triggered.connect(self.close)
         file_menu.addAction(refresh_act)
         file_menu.addAction(close_act)
 
@@ -162,7 +162,7 @@ class MainWindow(QMainWindow):
             """
         )
 
-        self.log_area.insertPlainText('Double click on SN column to see the running device log')
+        self.log_area.insertPlainText('Double click on the device row to see the running device log')
 
         vbox.addWidget(self.log_area)
         self.device_log_box.setLayout(vbox)
@@ -223,7 +223,7 @@ class MainWindow(QMainWindow):
             if obj and obj.check_thread():
                 self.table_widget.setItem(
                     index, 3,
-                    QTableWidgetItem('Running')
+                    QTableWidgetItem('{Running}')
                 )
                 self.table_widget.setItem(
                     index, 7,

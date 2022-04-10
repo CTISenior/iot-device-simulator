@@ -2,7 +2,11 @@
 
 import sys
 
-
+import utils.helper as Helper
+import utils.gui_helper as GUIHelper
+from dialogs.AddDialog import AddDialog
+from connectors.mqtt_client import MQTT_Client
+from connectors.http_client import HTTP_Client
 
 from PySide2.QtWidgets import (
     QMainWindow,
@@ -26,15 +30,9 @@ from PySide2.QtCore import (
     Qt
 )
 
-from dialogs.AddDialog import AddDialog
-from connectors.client import Client
-import utils.helper as Helper
-import utils.gui_helper as GUIHelper
-
 class MainWindow(QMainWindow):
     def __init__(self):
         # init function
-        
         QMainWindow.__init__(self)
         self.left = 200
         self.top = 200
@@ -79,8 +77,8 @@ class MainWindow(QMainWindow):
 
         self.device_count = QLabel()
 
-        self.device_list_box()
-        self.device_log_box()
+        self.set_device_list_box()
+        self.set_device_log_box()
 
         init_button = QPushButton('Add device', self)
         init_button.clicked.connect(self.add_device)
@@ -98,7 +96,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(wid)
         wid.setLayout(main_layout)
 
-    def device_list_box(self):
+    def set_device_list_box(self):
         self.device_list_box = QGroupBox("<Device List>")
         vbox = QVBoxLayout()
 
@@ -106,7 +104,8 @@ class MainWindow(QMainWindow):
         self.table_widget.setColumnCount(7)
         self.table_widget.setRowCount(15)
         self.table_widget.setHorizontalHeaderLabels(
-            ['SN', 'Protocol', 'Interval', 'Status', 'Keys', 'Values', 'Value Types'])
+            ['SN', 'Protocol', 'Interval', 'Status', 'Keys', 'Values', 'Value Types']
+        )
 
         header = self.table_widget.horizontalHeader()
         header.setSectionResizeMode(QHeaderView.ResizeToContents)
@@ -115,12 +114,10 @@ class MainWindow(QMainWindow):
         self.table_widget.setEditTriggers(QTableWidget.NoEditTriggers)
 
         self.table_widget.setContextMenuPolicy(Qt.CustomContextMenu)
-        self.table_widget.customContextMenuRequested.connect(
-            self.generate_menu)
+        self.table_widget.customContextMenuRequested.connect(self.generate_menu)
         self.table_widget.viewport().installEventFilter(self)
 
-        self.table_widget.doubleClicked.connect(
-            self.table_widget_doubleClicked)
+        self.table_widget.doubleClicked.connect(self.table_widget_doubleClicked)
 
         vbox.addWidget(self.table_widget)
         self.device_list_box.setLayout(vbox)
@@ -151,7 +148,7 @@ class MainWindow(QMainWindow):
                 self.stop_device()
             self.display_devices()
 
-    def device_log_box(self):
+    def set_device_log_box(self):
         self.device_log_box = QGroupBox("<Device Log>")
         vbox = QVBoxLayout()
 
@@ -163,7 +160,7 @@ class MainWindow(QMainWindow):
                 background: black;
             }
             """
-                                    )
+        )
 
         self.log_area.insertPlainText('Double click on SN column to see the running device log')
 
@@ -171,7 +168,7 @@ class MainWindow(QMainWindow):
         self.device_log_box.setLayout(vbox)
 
     def table_widget_doubleClicked(self):
-        """Show logs"""
+        """ Show logs """
 
         row = self.table_widget.currentIndex().row()
         sn = self.table_widget.item(row, 0).text()  # first column <SN> only
@@ -186,8 +183,7 @@ class MainWindow(QMainWindow):
         log_lines = Helper.read_log_file(logfile)
 
         if log_lines is not None:
-            self.log_area.insertPlainText(
-                f'Device logs: {sn}\n************************\n')
+            self.log_area.insertPlainText(f'Device logs: {sn}\n************************\n')
             self.log_area.appendPlainText("\n".join(log_lines))
         else:
             err = f'Log file does not exists: "{Helper.get_device_log_file(sn)}"'
@@ -214,8 +210,7 @@ class MainWindow(QMainWindow):
                 QTableWidgetItem(f'({value["interval"]})')
             )
 
-            obj = Helper.get_device_instance(
-                self.device_instance_list, value['serialNumber'])
+            obj = Helper.get_device_instance(self.device_instance_list, value['serialNumber'])
             self.table_widget.setItem(
                 index, 3,
                 QTableWidgetItem('Stopped')
@@ -224,6 +219,7 @@ class MainWindow(QMainWindow):
                 index, 7,
                 QTableWidgetItem('0')
             )
+
             if obj and obj.check_thread():
                 self.table_widget.setItem(
                     index, 3,
@@ -260,52 +256,49 @@ class MainWindow(QMainWindow):
         self.logger.debug(msg)
 
     def start_device(self):
-        """Righ-click menu item"""
+        """ Righ-click menu item """
 
-        if self.check_device_status() == False:
+        if self.check_device_status() is None:
             device_obj = Helper.get_device_data(self.current_device_sn)
             msg = Helper.prepare_telemetry_data(device_obj)
+            protocol = device_obj['protocol']
 
-            new_client = Client()
-            device_instance = new_client.run(
-                self.current_device_sn, device_obj, msg, device_obj['protocol'])
-            if device_instance is not None:
-                self.append_to_list(device_instance)
-                #self.logger.debug(f'Start device: [{self.current_device_sn}]')
-                GUIHelper.show_message_box(
-                    self,
-                    msg=f'Start device: [{self.current_device_sn}]',
-                    title='Success'
-                )
-            else:
-                #self.logger.warning(f'Protocol is not supported!: [{self.current_device_sn} - {protocol}]')
-                GUIHelper.show_message_box(
-                    self,
-                    msg=f'Protocol is not supported!: [{self.current_device_sn} - {device_obj["protocol"]}]',
-                    title='Warning!',
-                    msgType='warning')
+            if protocol == 'mqtt':
+                device_instance = MQTT_Client(self.current_device_sn, device_obj, device_obj['protocol'])
+                device_instance.run(msg)
+            elif protocol == 'http':
+                device_instance = HTTP_Client(self.current_device_sn, device_obj, device_obj['protocol'])
+                device_instance.run(msg)
+
+            self.append_to_instance_list(device_instance)
+            #self.logger.debug(f'Start device: [{self.current_device_sn}]')
+            GUIHelper.show_message_box(
+                self,
+                msg=f'Start device: [{self.current_device_sn}]',
+                title='Success'
+            )
         else:
             GUIHelper.show_message_box(
                 self,
                 msg=f'The device is already running [{self.current_device_sn}]',
                 title='Warning!',
-                msgType='warning'
+                msg_type='warning'
             )
 
     def stop_device(self):
-        """Righ-click menu item"""
+        """ Righ-click menu item """
 
-        if self.check_device_status() == False:
+        if self.check_device_status() is None:
             GUIHelper.show_message_box(
                 self,
                 msg=f'The device is already stopped! [{self.current_device_sn}]',
                 title='Warning!',
-                msgType='warning')
+                msg_type='warning'
+            )
         else:
-            device_obj = Helper.get_device_instance(
-                self.device_instance_list, self.current_device_sn)
+            device_obj = Helper.get_device_instance(self.device_instance_list, self.current_device_sn)
             device_obj.stop_thread()
-            self.remove_from_list(device_obj)
+            self.remove_from_instance_list(device_obj)
             #self.logger.debug(f'Stop device: {self.current_device_sn}')
             GUIHelper.show_message_box(
                 self,
@@ -314,9 +307,9 @@ class MainWindow(QMainWindow):
             )
 
     def delete_device(self):
-        """Righ-click menu item"""
+        """ Righ-click menu item """
 
-        if self.check_device_status() == False:
+        if self.check_device_status() is None:
             Helper.delete_json(self.current_device_sn)
             #self.logger.debug(f'Delete device: [{self.current_device_sn}]')
             GUIHelper.show_message_box(
@@ -329,14 +322,14 @@ class MainWindow(QMainWindow):
                 self,
                 msg=f'Running device cannot be deleted! [{self.current_device_sn}]',
                 title='Warning!',
-                msgType='warning')
+                msg_type='warning'
+            )
 
     def check_device_status(self):
-        return Helper.get_device_instance(
-            self.device_instance_list, self.current_device_sn)
+        return Helper.get_device_instance(self.device_instance_list, self.current_device_sn)
 
     def add_device(self):
-        """Show add device dialog"""
+        """ Show add device dialog """
 
         if self.add_window.isVisible():
             self.logger.warning('AddDialog is already visible')
@@ -346,13 +339,13 @@ class MainWindow(QMainWindow):
             self.add_window.show()
 
     def closeEvent(self, event):
-        """Exit the main window"""
+        """ Exit the main window """
 
         msg_box = GUIHelper.show_message_box(
             self,
             msg='Are you sure you want to exit the program?',
             title='Confirmation',
-            msgType='question'
+            msg_type='question'
         )
         reply = msg_box.exec()
 
@@ -366,11 +359,9 @@ class MainWindow(QMainWindow):
         else:
             event.ignore()
 
-    # @staticmethod
-    def append_to_list(self, obj):
+    def append_to_instance_list(self, obj):
         self.device_instance_list.append(obj)
-
-    def remove_from_list(self, obj):
+    def remove_from_instance_list(self, obj):
         self.device_instance_list.remove(obj)
 
 

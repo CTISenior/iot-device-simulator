@@ -1,18 +1,18 @@
 {
     "gateway": {
+        "id" : "test_id",
         "name": "Test Broker",
-        "client_id" : "test_id",
         "host": "127.0.0.1",
-        "default_keys": ["temp", "hum", "custom"],
         "security": {
-            "isSecure": false,
-            "username": "",
-            "password": ""
+            "credentials": false,
+            "username": "username",
+            "password": "password"
         },
-        "ssl": {
+        "advanced_security": {
             "certificates": false,
-            "caCert": "",
-            "cert": ""
+            "ca_cert": "~/ssl/ca.pem",
+            "private_key": "~/ssl/privateKey.pem",
+            "cert": "~/ssl/certificate.pem"
         },
         "protocols": {
             "mqtt": {
@@ -20,37 +20,66 @@
                 "port": 1883,
                 "topic_name": "/sensor/data",
                 "method": null,
-                "telemetry_keys":["serialNumber", "sensorName", "deviceType"],
+                "telemetry_keys":["serialNumber", "deviceName", "deviceType", "deviceModel"],
                 "security": {
-                    "isSecure": false,
-                    "username": "",
-                    "password": ""
+                    "credentials": false,
+                    "username": "username",
+                    "password": "password"
                 },
-                "ssl": {
+                "advanced_security": {
                     "certificates": false,
-                    "caCert": "",
-                    "cert": ""
+                    "ca_cert": "~/ssl/cert.pem"
                 }
             },
             "http": {
                 "name": "http",
                 "port": 5000,
-                "topic_name": "/device",
+                "topic_name": "/devices",
                 "method": "post",
-                "telemetry_keys":["serialNumber", "sensorName", "deviceType"],
+                "telemetry_keys":["serialNumber", "deviceName", "deviceType", "deviceModel"],
                 "security": {
-                    "isSecure": false,
-                    "username": "",
-                    "password": ""
+                    "credentials": false,
+                    "username": "username",
+                    "password": "password"
                 },
-                "ssl": {
+                "advanced_security": {
                     "certificates": false,
-                    "caCert": "",
-                    "cert": ""
+                    "cert": "~/ssl/cert.pem",
+                    "key": "~/ssl/key.pem"
                 }
             },
-            "": {
-
+            "modbus": {
+                
+            }
+        }
+    },
+    "generator": {
+        "default_keys": ["temp", "hum", "custom"],
+        "telemetry_keys":["serialNumber", "deviceName", "deviceType", "deviceModel"],
+        "value_types": {
+            "RN": {
+                "value_list":  [-1, 0, 1],
+                "format": "{0:.0f}"
+            },
+            "RFN": {
+                "value_list":  [-0.5, 0, 0.5],
+                "format": "{0:.2f}"
+            },
+            "RFN-2": {
+                "value_list":  [-0.1, 0, 0.1],
+                "format": "{0:.2f}"
+            },
+            "RFN-3": {
+                "value_list":  [-0.05, 0, 0.05],
+                "format": "{0:.3f}"
+            },
+            "RFN-4": {
+                "value_list":  [-0.01, 0, 0.01],
+                "format": "{0:.3f}"
+            },
+            "CN": {
+                "value_list":  [0],
+                "format": "{0:.0f}"
             }
         }
     }

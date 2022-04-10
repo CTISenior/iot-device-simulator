@@ -2,11 +2,11 @@ from setuptools import setup
 from os import path
 
 long_description = ""
-with open("README.md", 'r') as f:
+with open("README.md", 'r', encoding='UTF-8') as f:
     long_description = f.read()
 
 required = []
-with open('requirements.txt') as f:
+with open('requirements.txt', encoding='UTF-8') as f:
     required = f.read().splitlines()
 
 VERSION = "1.2.0"

@@ -5,7 +5,7 @@
 [![CodeQL](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
 
-> It is developed and designed for developers. (Tested on Ubuntu 20.04)
+> It is developed and designed for developers. (Tested on Ubuntu 20.04 Desktop)
 
 ## Installation
 

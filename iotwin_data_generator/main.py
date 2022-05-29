@@ -251,7 +251,7 @@ class MainWindow(QMainWindow):
                 QTableWidgetItem(str(value_types))
             )
 
-        msg = f'Number of running devices: [{str(Helper.get_running_device_count())}]'
+        msg = f'The number of running devices: [{str(Helper.get_running_device_count())}]'
         self.device_count.setText(msg)
         self.logger.debug(msg)
 

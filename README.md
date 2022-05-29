@@ -4,8 +4,9 @@
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 [![CodeQL](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-> It is developed and designed for developers. (Tested on Ubuntu Desktop 20.04)
+> It was developed and designed for developers. (Tested on Ubuntu Desktop 20.04)
 
 ## Installation
 
@@ -119,3 +120,9 @@
     ]
 }
 ```
+
+# Screenshots
+
+![Main01](/assets/main_window.png)
+
+![Main01](/assets/add_window.png)

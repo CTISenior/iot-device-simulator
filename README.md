@@ -1,11 +1,11 @@
 # IoTwin | Data Generator
 
 [![Python](https://badgen.net/pypi/python/black)](https://www.python.org/downloads/)
-[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://www.linux.org/pages/download/)
 [![CI](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/main.yml/badge.svg)](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/main.yml)
 [![CodeQL](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/codeql-analysis.yml)
-[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://pypi.org/project/pylint/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/muratalkan/iotwin-data-generator/blob/master/LICENSE.md)
 
 > Developed & designed for developers. Tested on Ubuntu Desktop 20.04
 
@@ -13,7 +13,7 @@
 
 ```
 >_ sudo apt update -y
->_ sudo apt install -y python3-dev python3-pip git libglib2.0-dev libxkbcommon-x11-0 libqt5x11extras5
+>_ sudo apt install python3-dev python3-pip git libglib2.0-dev libxkbcommon-x11-0 libqt5x11extras5 -y 
 >_ git clone https://github.com/muratalkan/iotwin-data-generator.git
 >_ cd iotwin-data-generator
 >_ sudo python3 setup.py install
@@ -21,7 +21,7 @@
 ```
 
 
-### default "config/settings.json" file
+#### default "config/settings.json" file
 
 ```
 {
@@ -112,7 +112,7 @@
 }
 ```
 
-### default "data/devices.json" file
+#### default "data/devices.json" file
 
 ```
 {
@@ -122,8 +122,14 @@
 }
 ```
 
-# Screenshots
 
-![Main01](/assets/main_window.png)
+## Screenshots
+Main Window </br>
+<kbd>
+ ![main_window](/assets/main_window.jpg)
+</kbd>
 
-![Main01](/assets/add_window.png)
+"Add New Device" Dialog </br>
+<kbd>
+  ![add_dialog](/assets/addnewdevice_dialog.jpg)
+</kbd>

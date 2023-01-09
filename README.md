@@ -14,6 +14,7 @@
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Screenshots](#screenshots)
+- [Roadmap](#roadmap)
 - [License](#license)
 -------
 ## Installation
@@ -129,7 +130,6 @@ sudo python3 ./iotwin_data_generator/main.py
 }
 ```
 
-
 ## Screenshots
 Main Window </br>
 <kbd>
@@ -140,6 +140,12 @@ Main Window </br>
 <kbd>
   ![add_dialog](/assets/addnewdevice_dialog.jpg)
 </kbd>
+
+## Roadmap
+- Advanced Security
+- More Protocol Support
+- Command Dialog
+- ...
 
 ## License
 [(Back to top)](#table-of-contents)

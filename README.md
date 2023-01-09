@@ -142,7 +142,7 @@ Main Window </br>
 </kbd>
 
 ## Roadmap
-- Code & Performance Optimization
+- Code Revision and Optimization
 - Advanced Security
 - More Protocol Support
 - Command Dialog

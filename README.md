@@ -20,6 +20,7 @@
 >_ sudo python3 ./iotwin_data_generator/main.py
 ```
 
+## Configuration
 
 #### default "config/settings.json" file
 

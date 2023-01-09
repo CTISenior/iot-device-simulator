@@ -14,7 +14,7 @@ VERSION = "1.2.0"
 setup(
     version=VERSION,
     name="iotwin-data-generator",
-    author="IoTeam",
+    author="Murat Alkan",
     author_email="",
     description="IoTwin | Data Generator",
     url="https://github.com/muratalkan/iotwin-data-generator",

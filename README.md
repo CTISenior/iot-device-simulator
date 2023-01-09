@@ -2,18 +2,19 @@
 
 [![Python](https://badgen.net/pypi/python/black)](https://www.python.org/downloads/)
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
-[![CodeQL](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/CTISenior/iot-device-simulator/actions/workflows/codeql-analysis.yml)
+[![CI](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/main.yml/badge.svg)](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/main.yml)
+[![CodeQL](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/codeql-analysis.yml)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-> Developed & designed for developers. (Tested on Ubuntu Desktop 20.04)
+> Developed & designed for developers. Tested on Ubuntu Desktop 20.04
 
 ## Installation
 
 ```
 >_ sudo apt update -y
 >_ sudo apt install -y python3-dev python3-pip git libglib2.0-dev libxkbcommon-x11-0 libqt5x11extras5
->_ git clone https://github.com/CTISenior/iotwin-data-generator.git
+>_ git clone https://github.com/muratalkan/iotwin-data-generator.git
 >_ cd iotwin-data-generator
 >_ sudo python3 setup.py install
 >_ sudo python3 ./iotwin_data_generator/main.py

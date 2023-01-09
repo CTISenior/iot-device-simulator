@@ -7,24 +7,30 @@
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://pypi.org/project/pylint/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/muratalkan/iotwin-data-generator/blob/master/LICENSE.md)
 
-> Developed & designed for developers. Tested on Ubuntu Desktop 20.04
+> IoTwin Data Generator helps you create virtual devices without the need to configure physical devices. It generates random numerical data according to the reference value you specify and then sends the generated value to your server at certain intervals.
 
+
+## Table of Contents
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Screenshots](#screenshots)
+- [License](#license)
+-------
 ## Installation
 
-```
->_ sudo apt update -y
->_ sudo apt install python3-dev python3-pip git libglib2.0-dev libxkbcommon-x11-0 libqt5x11extras5 -y 
->_ git clone https://github.com/muratalkan/iotwin-data-generator.git
->_ cd iotwin-data-generator
->_ sudo python3 setup.py install
->_ sudo python3 ./iotwin_data_generator/main.py
+```bash
+sudo apt update -y
+sudo apt install python3-dev python3-pip git libglib2.0-dev libxkbcommon-x11-0 libqt5x11extras5 -y 
+git clone https://github.com/muratalkan/iotwin-data-generator.git
+sudo python3 ./iotwin-data-generator/setup.py install
+sudo python3 ./iotwin_data_generator/main.py
 ```
 
 ## Configuration
 
 #### default "config/settings.json" file
 
-```
+```JSON
 {
     "gateway": {
         "id" : "test_id",
@@ -115,7 +121,7 @@
 
 #### default "data/devices.json" file
 
-```
+```JSON
 {
     "devices": [
  
@@ -134,3 +140,8 @@ Main Window </br>
 <kbd>
   ![add_dialog](/assets/addnewdevice_dialog.jpg)
 </kbd>
+
+## License
+[(Back to top)](#table-of-contents)
+
+Licensed under the MIT License (MIT) 2022 - [Murat Alkan](https://github.com/muratalkan). Please have a look at the [LICENSE.md](LICENSE.md) for more details.

@@ -5,7 +5,7 @@
 [![CI](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/main.yml/badge.svg)](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/main.yml)
 [![CodeQL](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/codeql-analysis.yml)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://pypi.org/project/pylint/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/muratalkan/iotwin-data-generator/blob/master/LICENSE.md)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 
 > IoTwin Data Generator helps you create virtual devices without the need to configure physical devices. It generates random numerical data according to the reference value you specify and then sends the generated value to your server at certain intervals.
 

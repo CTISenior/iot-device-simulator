@@ -142,9 +142,11 @@ Main Window </br>
 </kbd>
 
 ## Roadmap
+- Code & Performance Optimization
 - Advanced Security
 - More Protocol Support
 - Command Dialog
+- Testing
 - ...
 
 ## License

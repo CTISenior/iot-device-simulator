@@ -16,7 +16,9 @@
 - [Screenshots](#screenshots)
 - [Roadmap](#roadmap)
 - [License](#license)
+
 -------
+
 ## Installation
 
 ```bash

@@ -9,7 +9,7 @@ required = []
 with open('requirements.txt', encoding='UTF-8') as f:
     required = f.read().splitlines()
 
-VERSION = "2.0.0"
+VERSION = "1.2.0"
 
 setup(
     version=VERSION,

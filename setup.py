@@ -17,7 +17,7 @@ setup(
     author="IoTeam",
     author_email="",
     description="IoTwin | Data Generator",
-    url="https://github.com/CTISenior/iotwin-data-generator",
+    url="https://github.com/muratalkan/iotwin-data-generator",
     long_description=long_description,
     long_description_content_type="text/markdown",
     include_package_data=True,

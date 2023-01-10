@@ -152,6 +152,6 @@ Main Window </br>
 
 
 ## License
-[(Back to top)](#table-of-contents)
-
 Licensed under the MIT License (MIT) 2022 - [Murat Alkan](https://github.com/muratalkan). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
+
+[[Back to top]](#table-of-contents)

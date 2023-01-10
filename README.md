@@ -149,7 +149,6 @@ Main Window </br>
 - More Protocol Support
 - Command Dialog
 - Testing
-- ...
 
 ## License
 [(Back to top)](#table-of-contents)

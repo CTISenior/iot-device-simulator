@@ -162,7 +162,7 @@ class MainWindow(QMainWindow):
             """
         )
 
-        self.log_area.insertPlainText('Double click on the device row to see the running device log')
+        self.log_area.insertPlainText('-')
 
         vbox.addWidget(self.log_area)
         self.device_log_box.setLayout(vbox)

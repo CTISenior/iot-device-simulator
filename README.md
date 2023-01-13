@@ -7,11 +7,11 @@
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://pypi.org/project/pylint/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 
-> IoTwin Data Generator helps you create virtual devices without the need to configure physical devices. It generates random numerical data according to the reference value you specify and then sends the generated value to your server at certain intervals.
-
+> IoTwin Data Generator helps developers create virtual devices without the need to configure physical devices.
 
 ## Table of Contents
 - [Installation](#installation)
+- [Usage](#usage)
 - [Configuration](#configuration)
 - [Screenshots](#screenshots)
 - [Roadmap](#roadmap)
@@ -28,6 +28,10 @@ git clone https://github.com/muratalkan/iotwin-data-generator.git
 sudo python3 ./iotwin-data-generator/setup.py install
 sudo python3 ./iotwin_data_generator/main.py
 ```
+
+## Usage
+* Double click > device log
+* Right click > context-menu
 
 ## Configuration
 
@@ -131,7 +135,6 @@ sudo python3 ./iotwin_data_generator/main.py
     ]
 }
 ```
-
 ## Screenshots
 Main Window </br>
 <kbd>
@@ -150,8 +153,7 @@ Main Window </br>
 - Command Dialog
 - Testing
 
-
 ## License
-Licensed under the MIT License (MIT) 2022 - [Murat Alkan](https://github.com/muratalkan). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
+Licensed under the [MIT License](LICENSE) 2022 - [Murat Alkan](https://github.com/muratalkan)
 
 [[Back to top]](#table-of-contents)

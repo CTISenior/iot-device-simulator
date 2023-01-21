@@ -5,7 +5,7 @@
 [![CI](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/main.yml/badge.svg)](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/main.yml)
 [![CodeQL](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/muratalkan/iotwin-data-generator/actions/workflows/codeql-analysis.yml)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://pypi.org/project/pylint/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > IoTwin Data Generator helps developers create virtual devices without the need to configure physical devices.
 
@@ -30,12 +30,12 @@ sudo python3 ./iotwin_data_generator/main.py
 ```
 
 ## Usage
-* Double click > device log
-* Right click > context-menu
+* Double click the SN to view the device log
+* Right click on the SN to open the context menu
 
 ## Configuration
 
-#### default "config/settings.json" file
+#### default "./iotwin_data_generator/config/settings.json" file
 
 ```JSON
 {
@@ -126,7 +126,7 @@ sudo python3 ./iotwin_data_generator/main.py
 }
 ```
 
-#### default "data/devices.json" file
+#### default "./iotwin_data_generator/data/devices.json" file
 
 ```JSON
 {
